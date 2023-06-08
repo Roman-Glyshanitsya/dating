@@ -176,11 +176,19 @@ body {
     }
 
     .hero__title {
+        font-size: 52.0456px;
+        line-height: 63px;
         margin-bottom: 36px;
     }
 
     .hero__text {
+        font-size: 24.0211px;
+        line-height: 28px;
         margin-bottom: 45px;
+    }
+
+    .hero__button {
+        font-size: 14.0123px;
     }
 }
 
