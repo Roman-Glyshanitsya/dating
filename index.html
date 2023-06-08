@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>URLAUBSGLÜCK</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,37 +19,98 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div>
-        <button class="" type="button">Log in</button>
-        <button class="" type="button">Sign up</button>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="">URLAUBSGLÜCK</a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <button class="nav__button" type="button">Log in</button>
+          </li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Sign up</button>
+          </li>
+        </ul>
       </div>
-      <a class="logo" href="">URLAUBSGLÜCK</a>
     </header>
 
     <!-- Main -->
     <main>
       <!-- Hero -->
-      <section>
-        <h1>Share your holiday dreams</h1>
-        <p>And find the perfect partner to fullfill it</p>
-        <button type="button">Find your holiday partner</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Share your holiday dreams</h1>
+          <p class="hero__text">And find the perfect partner to fullfill it</p>
+          <button class="hero__button" type="button">
+            Find your holiday partner
+          </button>
+        </div>
       </section>
 
       <!-- Main content -->
-      <section>
-        <h2>Meet a partner for your best holiday</h2>
-        <ul>
-          <li>
-            <img src="./img/partners/partner-1.png" alt="" />
-            <svg>
-              <use></use>
-            </svg>
-            <h3>Bradley Hunter</h3>
-            <p>Based in Chicago. I love playing tennis and loud music.</p>
-          </li>
-        </ul>
-        <button type="button">See other partners</button>
+      <section class="partners__section">
+        <div class="container">
+          <h2 class="partners__title">Meet a partner for your best holiday</h2>
+          <ul class="partners__list">
+            <li class="partners__item">
+              <img
+                class="partners__img"
+                src="./img/partners/partner-1.png"
+                alt="man"
+              />
+              <svg class="partners__icon">
+                <use></use>
+              </svg>
+              <h3 class="partners__name">Bradley Hunter</h3>
+              <p class="partners__text">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__img"
+                src="./img/partners/partner-2.png"
+                alt="woman"
+              />
+              <svg class="partners__icon">
+                <use></use>
+              </svg>
+              <h3 class="partners__name">Heather Walker</h3>
+              <p class="partners__text">
+                I'm a happy person that loves cats and climbing on mountains.
+              </p>
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__img"
+                src="./img/partners/partner-3.png"
+                alt="man"
+              />
+              <svg class="partners__icon">
+                <use></use>
+              </svg>
+              <h3 class="partners__name">Lucas Marsha</h3>
+              <p class="partners__text">
+                I get my inspiration from nature and objects around me. I have a
+                passion to colours, typography and skateboards.
+              </p>
+            </li>
+            <li class="partners__item">
+              <img
+                class="partners__img"
+                src="./img/partners/partner-4.png"
+                alt="woman"
+              />
+              <svg class="partners__icon">
+                <use></use>
+              </svg>
+              <h3 class="partners__name">Bradley Hunter</h3>
+              <p class="partners__text">
+                Based in Chicago. I love playing tennis and loud music.
+              </p>
+            </li>
+          </ul>
+          <button type="button">See other partners</button>
+        </div>
       </section>
     </main>
   </body>
