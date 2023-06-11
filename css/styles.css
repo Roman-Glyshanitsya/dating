@@ -214,3 +214,23 @@ body {
         line-height: 17px;
     }
 }
+
+/* main content */
+.partners__section {
+    padding-top: 67px;
+    padding-bottom: 56px;
+}
+
+@media screen and (min-width: 768px) {
+    .partners__section {
+        padding-top: 71px;
+        padding-bottom: 39px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .partners__section {
+        padding-top: 69px;
+        padding-bottom: 72px;
+    }
+}
