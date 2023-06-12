@@ -227,15 +227,11 @@ body {
     margin-bottom: 14px;
 }
 
-.partners__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
 .partners__item {
     width: 194px;
+    margin-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .partners__thumb {
@@ -325,11 +321,15 @@ body {
     }
 
     .partners__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 50px;
     }
 
     .partners__item {
         width: 230px;
+        margin: 0;
     }
 
     .partners__button {
