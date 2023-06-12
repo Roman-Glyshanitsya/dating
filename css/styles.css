@@ -97,8 +97,6 @@ body {
 .nav__button {
     font-size: 14px;
     line-height: 17px;    
-    display: flex;
-    align-items: flex-end;
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
@@ -221,10 +219,85 @@ body {
     padding-bottom: 56px;
 }
 
+.partners__title {
+    font-size: 22.0041px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.partners__item {
+    outline: 1px solid red;
+    width: 217px;
+}
+
+.partners__img {
+    margin-bottom: 15px;
+}
+
+.partners__icon {
+    width: 15px;
+    height: 15px;
+}
+
+.partners__name {
+    font-size: 14.0112px;
+    line-height: 17px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 13px;
+}
+
+.partners__text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14.0112px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+
+.partners__button {
+    font-size: 14.001px;
+    line-height: 17px;
+    text-align: center;
+    color: #FF4E50;
+    padding: 12px 59px;
+    border: 2px solid #FF4E50;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-top: 27px;
+}
+
 @media screen and (min-width: 768px) {
     .partners__section {
         padding-top: 71px;
         padding-bottom: 39px;
+    }
+
+    .partners__title {
+        margin-bottom: 30px;
+    }
+
+    .partners__list {
+        gap: 50px;
+    }
+
+    .partners__item {
+        width: 230px;
+    }
+
+    .partners__button {
+        padding: 13px 17px;
+        margin-top: 38px;
     }
 }
 
@@ -232,5 +305,13 @@ body {
     .partners__section {
         padding-top: 69px;
         padding-bottom: 72px;
+    }
+
+    .partners__list {
+        gap: 37px;
+    }
+
+    .partners__item {
+        width: 194px;
     }
 }
