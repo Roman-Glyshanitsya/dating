@@ -1,0 +1,18 @@
+.partners__button {
+  width: 280px;
+  height: 40px;
+  font-size: 14.001px;
+  line-height: 17px;
+  text-align: center;
+  color: #ff4e50;
+  border: 2px solid #ff4e50;
+  border-radius: 50px;
+  background-color: transparent;
+  margin-top: 27px;
+
+  @media screen and (min-width: 768px) {
+    width: 195px;
+    height: 42px;
+    margin-top: 38px;
+  }
+}
